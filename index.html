@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yuk San Chen is a CUHK undergraduate studying Artificial Intelligence: Systems & Technologies, interested in efficient AI systems and reinforcement learning.">
+  <meta name="theme-color" content="#f7f7f2">
+  <title>Yuk San Chen — CUHK Undergraduate</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#top">Yuk San Chen</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-layout shell" id="main">
+    <aside class="profile" id="top" aria-label="Profile">
+      <div class="identity">
+        <div class="portrait"><img class="avatar" src="portrait.jpg" alt="Yuk San Chen" width="156" height="156"></div>
+        <div class="identity-copy">
+          <h1>Yuk San Chen</h1>
+          <p class="profile-program">Undergraduate student<br>Artificial Intelligence: Systems &amp; Technologies<br>The Chinese University of Hong Kong</p>
+          <p class="location">Hong Kong</p>
+        </div>
+      </div>
+      <ul class="profile-links" aria-label="Contact links">
+        <li><a href="mailto:yuk3chen@gmail.com">Email</a></li>
+        <li><a href="https://github.com/TheRuabit">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/yuk-san-chen-9368072a0/">LinkedIn</a></li>
+      </ul>
+    </aside>
+
+    <div class="content">
+      <section class="content-section about-section" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+        <p class="about-text">I’m an undergraduate student at CUHK studying Artificial Intelligence: Systems &amp; Technologies. I’m interested in efficient LLM serving and inference across agentic and reinforcement-learning workflows.</p>
+        <div class="education-row">
+          <span class="detail-label">Education</span>
+          <p>BEng AI: Systems &amp; Technologies · Expected June 2027<br>ELITE Stream · Scholarships in 2024 and 2025</p>
+        </div>
+        <div class="interests" id="research" aria-labelledby="interests-title">
+          <h3 id="interests-title">Research interests</h3>
+          <ul class="interest-list">
+            <li>LLM inference</li>
+            <li>Agentic workflows</li>
+            <li>RL systems</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="content-section" id="experience" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
+        <ol class="experience-list">
+          <li class="experience-item">
+            <p class="experience-date">Jun — Aug 2026</p>
+            <h3>Summer Research Intern <span>· CUHK Faculty of Engineering</span></h3>
+            <p>Investigated RL rollout inference bottlenecks and risk-aware, program-level scheduling.</p>
+          </li>
+          <li class="experience-item">
+            <p class="experience-date">Jul 2025</p>
+            <h3>Student Helper <span>· Brain and Mind Institute, CUHK</span></h3>
+            <p>Built a research data collection app and an audio/video translation workflow for Cantonese, Mandarin and English with React, Node and Whisper.</p>
+          </li>
+          <li class="experience-item">
+            <p class="experience-date">Jul — Aug 2024</p>
+            <h3>Research Intern <span>· Institute of Software, Chinese Academy of Sciences</span></h3>
+            <p>Worked on multimodal guided image completion with conditional diffusion, CLIP and cross-attention, using PyTorch and multi-GPU experiments.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="content-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-title-row">
+          <h2 id="projects-title">Projects</h2>
+          <p>Selected public work</p>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <h3><a href="https://github.com/TheRuabit/ConcurRL-vLLM-CPUbase">ConcurRL</a></h3>
+            <p>A concurrency and latency benchmark for agentic reinforcement-learning workloads on vLLM, examining CPU scheduling and request latency.</p>
+            <div class="project-meta">
+              <ul class="tags" aria-label="Technologies"><li>Python</li><li>vLLM</li><li>RL systems</li></ul>
+              <a class="source-link" href="https://github.com/TheRuabit/ConcurRL-vLLM-CPUbase">Source repo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3><a href="https://github.com/TheRuabit/cpu-gpu-decomposition-benchmark">CPU/GPU inference benchmark</a></h3>
+            <p>A reproduction study on an NVIDIA A800 using vLLM and LMCache, decomposing inference time and comparing HBM prefix caching with CPU DRAM caching.</p>
+            <div class="project-meta">
+              <ul class="tags" aria-label="Technologies"><li>vLLM</li><li>LMCache</li><li>Profiling</li></ul>
+              <a class="source-link" href="https://github.com/TheRuabit/cpu-gpu-decomposition-benchmark">Source repo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3><a href="https://github.com/TheRuabit/PaperNotes">PaperNotes</a></h3>
+            <p>A searchable collection of segmented paper notes, with a manually maintained graph tracing relationships between papers.</p>
+            <div class="project-meta">
+              <ul class="tags" aria-label="Technologies"><li>TypeScript</li><li>Research notes</li></ul>
+              <div class="project-links">
+                <a class="source-link" href="https://github.com/TheRuabit/PaperNotes">Source repo <span aria-hidden="true">↗</span></a>
+                <a class="source-link" href="https://theruabit.github.io/PaperNotes/">Read notes <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="tools-row"><span class="detail-label">Tools</span><p>Python · PyTorch · vLLM · SGLang · TypeScript · React · Hono · Docker · Linux</p></div>
+      </section>
+
+      <section class="content-section contact-section" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>Feel free to get in touch about projects or research. <a href="mailto:yuk3chen@gmail.com">Email me</a>.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer shell"><span>Yuk San Chen</span><span>Hong Kong · <a href="#top">Back to top</a></span></footer>
+</body>
+</html>
